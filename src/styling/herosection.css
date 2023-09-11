@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 700px;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  margin: 50px auto 50px;
+  border-radius: 20px;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: #ffffff;
+  padding: 10px 25px;
+  height: 2.3rem;
+  width: 70%;
+  max-width: 700px;
+  border-radius: 1.5rem;
+  text-align: center;
+  transition: 0.6s ease-in;
+  flex: 1;
+}
+
+.searchicon {
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+}
+
+.searchicon:hover {
+  border-radius: 50%;
+  background-color: #222;
+  color: white;
+}
+
+.othericon {
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}
+
+.weather-icon {
+  width: 170px;
+  margin-top: 5rem;
+  box-shadow: black 5px 5px 10px;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+.temp {
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: black;
+  font-weight: 500;
+}
+
+.city {
+  font-size: 3rem;
+  color: black;
+  font-weight: 500;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+p {
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+pre {
+  font-size: 1.45rem;
+  font-weight: 400;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}/*# sourceMappingURL=herosection.css.map */
